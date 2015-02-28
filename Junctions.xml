@@ -1,0 +1,65 @@
+File copy from
+
+http://hatrafficinfo.dft.gov.uk/feeds/datex/England/PredefinedLocationJourneyTimeSections/content.xml
+
+<predefinedLocation id="Section11287">
+<predefinedLocationName>
+<value lang="en">
+Journey Time Section for M40 southbound from J1A (M25) to Jct 1 (A40) and A40 to Jct with B467 Ickenham
+</value>
+</predefinedLocationName>
+<predefinedLocation xsi:type="Linear">
+<tpeglinearLocation>
+<tpegDirection>unknown</tpegDirection>
+<tpegLocationType>segment</tpegLocationType>
+<to xsi:type="TPEGJunction">
+<pointCoordinates>
+<latitude>51.559353</latitude>
+<longitude>-0.472942</longitude>
+</pointCoordinates>
+<name>
+<descriptor>
+<value lang="en"/>
+</descriptor>
+<tpegDescriptorType>junctionName</tpegDescriptorType>
+</name>
+<ilc>
+<descriptor>
+<value lang="en">A40</value>
+</descriptor>
+<tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+</ilc>
+<ilc>
+<descriptor>
+<value lang="en">A437</value>
+</descriptor>
+<tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+</ilc>
+</to>
+<from xsi:type="TPEGJunction">
+<pointCoordinates>
+<latitude>51.56277</latitude>
+<longitude>-0.546754</longitude>
+</pointCoordinates>
+<name>
+<descriptor>
+<value lang="en">1A</value>
+</descriptor>
+<tpegDescriptorType>junctionName</tpegDescriptorType>
+</name>
+<ilc>
+<descriptor>
+<value lang="en">M40</value>
+</descriptor>
+<tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+</ilc>
+<ilc>
+<descriptor>
+<value lang="en">M25</value>
+</descriptor>
+<tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+</ilc>
+</from>
+</tpeglinearLocation>
+</predefinedLocation>
+</predefinedLocation>
